@@ -1,0 +1,36 @@
+{
+  "readmeUrl": "#",
+  "title": "WebTerminal",
+  "name": "Vasiliy",
+  "ascii": "#",
+  "social": {
+    "github": "github",
+    "linkedin": "linkedin"
+  },
+  "email": "hop-hey-la-la-ley",
+  "ps1_hostname": "DioBrando",
+  "ps1_username": "Kira",
+  "repo": "https://github.com/",
+  "resume_url": "resume",
+
+  "colors": {
+    "light": {
+      "background": "#FBF1C9",
+      "foreground": "#3C3836",
+      "yellow": "#D79921",
+      "green": "#98971A",
+      "gray": "#7C6F64",
+      "blue": "#458588",
+      "red": "#CA2124"
+    },
+    "dark": {
+      "background": "#2E3440",
+      "foreground": "#E5E9F0",
+      "yellow": "#5E81AC",
+      "green": "#A3BE8C",
+      "gray": "#88C0D0",
+      "blue": "#EBCB8B",
+      "red": "#BF616A"
+    }
+  }
+}
