@@ -2,9 +2,11 @@
 
 ## Credit
 
-Based on cveinnt steal [Terminal](https://github.com/Cveinnt/LiveTerm)
-In fact M4TT72's real man [Terminal](https://github.com/m4tt72/terminal)
-[REAL GOD](https://github.com/chubin)
+Based on cveinnt steal [Terminal](https://github.com/Cveinnt/LiveTerm) <br/>
+In fact M4TT72's real man [Terminal](https://github.com/m4tt72/terminal) <br/>
+[REAL GOD](https://github.com/chubin) <br/>
+
+---
 
 Highly customizable, easy-to-use, and minimal terminal styled website template, powered by Next.js.
 
