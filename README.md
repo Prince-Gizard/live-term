@@ -1,12 +1,15 @@
-# [💻 LiveTerm - build terminal styled websites in minutes!](https://liveterm.vercel.app)
+# 💻 LiveTerm - build terminal styled websites in minutes
 
 ## Credit
 
-Based on cveinnt steal [Terminal](https://github.com/Cveinnt/LiveTerm) <br/>
+Based on stolen by cveinnt [Terminal](https://github.com/Cveinnt/LiveTerm) <br/>
 In fact M4TT72's real man [Terminal](https://github.com/m4tt72/terminal) <br/>
 [REAL GOD](https://github.com/chubin) <br/>
+[REAL SLIM SHADY](https://www.youtube.com/watch?v=eJO5HU_7_1w)
 
 ---
+
+## Use it
 
 Highly customizable, easy-to-use, and minimal terminal styled website template, powered by Next.js.
 
