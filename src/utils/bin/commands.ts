@@ -30,7 +30,7 @@ export const repo = async (args: string[]): Promise<string> => {
 
 // About
 export const about = async (args: string[]): Promise<string> => {
-  return `Hi, I am ${config.name}. 
+  return `Hi, I am ${config.name}.
 Welcome to my website!
 More about me:
 'sumfetch' - short summary.
@@ -45,7 +45,7 @@ export const resume = async (args: string[]): Promise<string> => {
 
 // Donate
 export const donate = async (args: string[]): Promise<string> => {
-  return `thank you for your interest. 
+  return `thank you for your interest.
 here are the ways you can support my work:
 - <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
 - <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.patreon}" target="_blank">patreon</a></u>
@@ -60,13 +60,11 @@ export const email = async (args: string[]): Promise<string> => {
 
 export const github = async (args: string[]): Promise<string> => {
   window.open(`https://github.com/${config.social.github}/`);
-
   return 'Opening github...';
 };
 
 export const linkedin = async (args: string[]): Promise<string> => {
   window.open(`https://www.linkedin.com/in/${config.social.linkedin}/`);
-
   return 'Opening linkedin...';
 };
 
@@ -141,17 +139,24 @@ export const sudo = async (args?: string[]): Promise<string> => {
 // Banner
 export const banner = (args?: string[]): string => {
   return `
-█████        ███                       ███████████                                   
-░░███        ░░░                       ░█░░░███░░░█                                   
- ░███        ████  █████ █████  ██████ ░   ░███  ░   ██████  ████████  █████████████  
- ░███       ░░███ ░░███ ░░███  ███░░███    ░███     ███░░███░░███░░███░░███░░███░░███ 
- ░███        ░███  ░███  ░███ ░███████     ░███    ░███████  ░███ ░░░  ░███ ░███ ░███ 
- ░███      █ ░███  ░░███ ███  ░███░░░      ░███    ░███░░░   ░███      ░███ ░███ ░███ 
+█████        ███                       ███████████
+░░███        ░░░                       ░█░░░███░░░█
+ ░███        ████  █████ █████  ██████ ░   ░███  ░   ██████  ████████  █████████████
+ ░███       ░░███ ░░███ ░░███  ███░░███    ░███     ███░░███░░███░░███░░███░░███░░███
+ ░███        ░███  ░███  ░███ ░███████     ░███    ░███████  ░███ ░░░  ░███ ░███ ░███
+ ░███      █ ░███  ░░███ ███  ░███░░░      ░███    ░███░░░   ░███      ░███ ░███ ░███
  ███████████ █████  ░░█████   ░░██████     █████   ░░██████  █████     █████░███ █████
-░░░░░░░░░░░ ░░░░░    ░░░░░     ░░░░░░     ░░░░░     ░░░░░░  ░░░░░     ░░░░░ ░░░ ░░░░░ 
+░░░░░░░░░░░ ░░░░░    ░░░░░     ░░░░░░     ░░░░░     ░░░░░░  ░░░░░     ░░░░░ ░░░ ░░░░░
 
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
 `;
+};
+
+// Dio
+export const dio = (args?: string[]): string => {
+  return `
+  the world!
+  `;
 };
