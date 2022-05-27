@@ -1,11 +1,11 @@
 {
-  "name": "liveterm",
+  "name": "DioBrandoTerminal",
   "version": "0.0.0",
   "license": "MIT",
   "author": {
-    "name": "Vincent Wu",
-    "url": "",
-    "email": ""
+    "name": "Yassine Fathi aka m4tt72",
+    "url": "https://i.kym-cdn.com/photos/images/original/000/754/925/835.png",
+    "email": "#"
   },
   "scripts": {
     "dev": "next dev",
