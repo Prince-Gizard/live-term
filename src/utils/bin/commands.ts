@@ -43,7 +43,6 @@ export const resume = async (args: string[]): Promise<string> => {
   return 'Opening resume...';
 };
 
-// Donate
 
 // Contact
 export const email = async (args: string[]): Promise<string> => {
@@ -125,8 +124,13 @@ export const emacs = async (args?: string[]): Promise<string> => {
 };
 
 export const sudo = async (args?: string[]): Promise<string> => {
-  window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
+  window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
   return `Permission denied: with little power comes... no responsibility? `;
+};
+
+export const jazzfusion = async (args?: string[]): Promise<string> => {
+  window.open('https://youtu.be/gxpVHnjcvDg', '_blank');
+  return `ジョジョ ウェザ`;
 };
 
 // Banner
